@@ -82,7 +82,7 @@ class QuestionScreen extends StatelessWidget {
         body: SingleChildScrollView(
           child: questions.isEmpty
               ? Center(
-                  child: const Text('You have no custom words'),
+                  child: const Text('You have no custom words.'),
                 )
               : Column(
                   crossAxisAlignment: CrossAxisAlignment.center,

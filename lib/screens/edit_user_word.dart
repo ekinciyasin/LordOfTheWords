@@ -119,7 +119,7 @@ class _EditUserWordScreenState extends State<EditUserWordScreen> {
                 },
                 validator: (value) {
                   if (value!.isEmpty) {
-                    return 'Please enter a defination!';
+                    return 'Please enter a defination.';
                   }
                   if (value.length > 200) {
                     return 'Please specify a value of less than 200 characters.';

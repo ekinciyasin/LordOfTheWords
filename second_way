@@ -1,0 +1,28 @@
+List<Widget> getPolygon(List list) {
+      List<Widget> childs = [];
+      for (var i = 0; i < 8; i++) {
+        childs.add(new Polygon(
+          // clipShadows: const [],  ??
+          sides: 7,
+          child: Container(
+            decoration: BoxDecoration(
+              color: Color(0xFF5AD4FC),
+            ),
+
+            // width: mediaQuery.size.width * 0.2 - 100,
+            width: 45,
+            height: mediaQuery.size.height * 0.07,
+            child: Center(
+              child: Text(list[i]),
+            ),
+          ),
+        ));
+      }
+      return childs;
+    }
+
+
+     Row(
+              mainAxisSize: MainAxisSize.min,
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              // children: getPolygon(list),)

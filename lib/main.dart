@@ -43,7 +43,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Lord of The Words',
+        title: 'Word Games',
         theme: ThemeData(
           primaryColorLight: Color(0xFFB2EBF2),
           primaryColorDark: Color(0xFF0097A7),
